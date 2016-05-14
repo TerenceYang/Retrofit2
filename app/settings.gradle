@@ -1,0 +1,10 @@
+include "retrofit"
+project(':retrofit').projectDir = new File('../retrofit')
+include "rxjava"
+project(':rxjava').projectDir = new File('../retrofit-adapters/rxjava')
+include "gson"
+project(':gson').projectDir = new File('../retrofit-converters/gson')
+include "okhttp3"
+project(':okhttp3').projectDir = new File('../okhttp3')
+//include "retrofit_org"
+//project(':retrofit_org').projectDir = new File('../retrofit_org')
